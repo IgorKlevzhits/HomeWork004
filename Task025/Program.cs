@@ -21,4 +21,4 @@ int getNumber(string message)
 }
 int number = getNumber("Введите число возводимое в степень: ");
 int degree = getNumber("Введите степень в которую нужно возвести число: ");
-Console.WriteLine($"Число {number} возведенное в {degree}-ую степень равно - {Math.Pow(number, degree)}");
+Console.WriteLine($"{number} в {degree}-ой степени равно - {Math.Pow(number, degree)}");
